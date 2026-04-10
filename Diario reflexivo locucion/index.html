@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diario Reflexivo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-container">
+    <header class="hero">
+      <h1 id="welcome-title" class="welcome-title"> D   iario reflexivo</h1>
+      <p class="intro-text">Aqui encontraras mi diario reflexivo mi video donde comparto mis ideas sobre la clase.</p>
+      <p class="subtitle" id="subtitle">Estoy creando un espacio personal con ideas y sensaciones.</p>
+    </header>
+
+    <section class="video-section">
+      <div class="video-card">
+        <div class="video-info">
+          <h2>Mi video </h2>
+        </div>
+        <video id="diary-video" controls poster="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=1200&q=80">
+          <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+          Tu navegador no soporta videos HTML5.
+        </video>
+        <div class="video-status" id="video-status">Video disponible para ver aquí mismo.</div>
+      </div>
+    </section>
+
+    <section class="extra-section">
+      <div class="card">
+        <h3>Un poco más con JavaScript</h3>
+        <p id="dynamic-text">Cada letra de <strong>Bienvenido</strong> tiene un color diferente y el texto de abajo cambia con movimiento.</p>
+        <button id="change-message">Ver mensaje reflexivo</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
